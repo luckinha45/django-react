@@ -1,0 +1,17 @@
+Fazer um app que mostra diversas tabelas de stocks ficticios que estão salvos num bd pgsql
+
+tutorial setup django+react: https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j
+tutorial setup pgsql no django: https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django
+tutorial config types+react+webpack+babel: https://dev.to/deadwing7x/setup-a-react-app-with-webpack-and-babel-4o3k
+
+backend:
+	- django
+
+frontend:
+	- react
+
+paginas:
+	home: tela de introdução simples q leva p/ outras 3 paginas: testBD, testAPI, about;
+	testBD: Mostra uma tabela com dados orinundos do sqlite (lista de afazeres);
+	testAPI: Mostra uma tabela com dados orinundos da API yahooquery;
+	about: tela com meu nome e outras infos
