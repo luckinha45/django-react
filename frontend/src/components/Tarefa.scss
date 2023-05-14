@@ -1,0 +1,12 @@
+.tbl {
+	margin-top: 20px;
+	width:80%;
+
+	table tbody tr td:nth-of-type(odd) {
+		background-color: rgb(69, 34, 129)
+	}
+	
+	table tbody tr td:nth-of-type(even) {
+		background-color: rgb(51, 50, 77);
+	}
+}

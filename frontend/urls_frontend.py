@@ -1,7 +1,6 @@
-from django.urls import path
+from django.urls import re_path
 from . import views
 
 urlpatterns = [
-    path('', views.index),
-    path('about', views.index)
+    re_path(r'[0-9a-zA-Z\-]*', views.index)
 ]

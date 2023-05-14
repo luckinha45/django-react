@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
-    entry: "./src/index.tsx",
+    entry: { index: "./src/index.tsx" },
     output: {
         path: path.join(__dirname, "./static/frontend"),
         filename: "[name].js",
@@ -40,6 +40,9 @@ module.exports = {
     },
     optimization: {
         minimize: true
+        // splitChunks: {
+        //     chunks: 'all',
+        // },
     },
     plugins: [
         new HtmlWebpackPlugin({
